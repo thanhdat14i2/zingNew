@@ -1,0 +1,167 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+:root {
+    --black-text: #444444;
+    --blue--hover: #3399cc;
+    --border: #ddd;
+}   
+.body{
+    font-family: Arial, sans-serif;
+    font-size: 12px;
+}
+.zing-header{
+    height: 52px;
+    border-bottom: 1px var(--border) solid;
+}
+.zing-header .page-wrapper{
+    width: 1025px;
+    margin: 0px auto;
+    display: flex;
+    justify-content: space-between;
+    height: 100%;
+}
+.zing-header .page-wrapper .logo{
+    width: 100px;
+}
+.zing-header .page-wrapper .logo a{
+    width: 100px;
+    display: block;
+    height: 30px;
+    text-decoration: none;
+    padding-top: 11px;
+}
+.zing-header .page-wrapper .logo span{
+    display: block;
+    font-size: 7px;
+    font-family: 'Roboto Condensed', sans-serif;
+    text-transform: uppercase;
+    color: var(--black-text);
+    white-space: nowrap;
+}
+.zing-header .page-wrapper .logo img{
+    display: block;
+    font-size: 10px;
+    height: 100%;
+}
+.zing-header .page-wrapper .navbar{
+    width: 800px;
+    height: 100%;
+}
+.zing-header .page-wrapper .navbar ul{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.zing-header .page-wrapper .navbar ul li {
+    list-style: none;
+    text-align: center;
+    height: 100%;
+    float: left;
+    margin-right: 24px;
+}
+.zing-header .page-wrapper .navbar ul li a{
+    color: var(--black-text);
+    text-decoration: none;
+    font-size: 15px;
+    height: 49px;
+    width: auto;
+    display: block;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.zing-header .page-wrapper .navbar ul li a:hover{
+    color: var(--blue--hover);
+    border-bottom: 3px var(--blue--hover) solid;
+}
+.zing-header .page-wrapper .navbar ul li:last-child a:hover{
+    color: var(--black-text);
+    border: none;
+}
+.zing-header .page-wrapper .search-user{
+    width: 85px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.zing-header .page-wrapper .search-user a{
+    color: #444444;
+}
+.zing-header .page-wrapper .search-user .search, .user{
+    width: 45%;
+}
+.zing-header .page-wrapper .search-user .search, .user{
+    font-size: 22px;
+}
+.zing-header .page-wrapper .search-user a:hover{
+    font-size: 22px;
+    color: var(--blue--hover);
+}
+.page-wrapper{
+    width: 1025px;
+    margin: 10px auto;
+    display: flex;
+    height: 30px;
+    align-items: center;
+}
+.page-wrapper .hashtag-trending{
+    width: calc(100% - 300px);
+}
+.page-wrapper .weather{
+    width: 100%;
+    min-width: 300px;
+    display: flex;
+    justify-content: end;
+}
+.page-wrapper .weather ul{
+    display: flex;
+    justify-content: right;
+}
+.page-wrapper .weather:hover .filter{
+    display: flex;
+}
+.page-wrapper .weather:hover ul{
+    position: relative;
+}
+.page-wrapper .weather ul li{
+    list-style: none;
+    margin-right: 5px;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    height: 30px;
+}
+.page-wrapper .weather ul li:nth-child(3){
+    width: 30px;
+    height: 30px;
+    background-color: #fbc030;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+}
+.page-wrapper .weather ul li:nth-child(3) i{
+    color: white;
+    font-size: 20px;
+}
+.page-wrapper .weather .filter{
+    height: 30px;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    transition: 3s;
+}
+.page-wrapper .weather .filter i{
+    border-radius: 50px;
+    border: 2px #ddd solid;
+    width: 17px;
+    height: 17px;
+    justify-content: center;
+    align-items: center;
+    color: #a99a9a;
+    display: flex;
+    
+}
