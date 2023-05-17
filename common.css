@@ -179,3 +179,15 @@ img{
 .mr-1{
     margin-right: 10px;
 }
+.nt-1{
+    margin-top: 10px;
+}
+.pt-1{
+    padding-top: 10px;
+}
+.font-weight-none{
+    font-weight: 100;
+}
+.text-grey{
+    color: #888;
+}
