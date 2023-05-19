@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <!-- giup dien thoai nhan css ben trong the media -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>24h.com.vn</title>
+    
+</head>
+<body>
+
+
+
+    <style type="text/css">
+   
+    * {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+    }
+
+  
+/*
+   - responsive web la 1 web co nhieu giao dien (hay noi cach khac viet css cho nhieu man hinh(pc,tablet,phone)
+
+    giao dien phone < 730 < giao dien 2 < 1023 < : giao dien pc va thu nho lai
+
+   - pc: -> giao dien pc : 0 -  vo cung
+   - tablet: -> giao dien : 0 - 992
+   - phone: 0-768
+
+   
+    - 1023 <: giao dien pc, giu nguyen va bop nho lai
+    - < 1023 : bien doi sang  giao dien 2 :tablet
+    - < 730: bien doi sang 3:  phone;
+
+    */
+    
+
+    /*man hinh chinh*/
+    /*0-vo cung*/
+
+    
+    
+   
+    /*ul.media_list li:first-child: chon the li dau tien
+    ul.media_list li:last-child: cuoi cung
+    ul.media_list li:nth-child(2): the thu 2
+    ul.media_list li:nth-child(2n + 1): le 
+    ul.media_list li:nth-child(2n + 2): chan*/
+    
+
+    
+    /*toa giao chinh hoan chinh*/
+    
+    /*chuyen width the cha sang max-width va width:100%*/
+   
+    div{
+
+/*        gioi han toi da la 1100px*/
+        max-width: 1100px;
+
+/*        khi thu nho la 100%*/
+        width: calc(100% - 60px);
+
+
+        padding: 30px;
+
+        background-color: yellow;
+        display: block;
+        margin: 0 auto;
+    }
+    ul {
+        display: inline-block;
+        width: 100%;
+    }
+    ul li{
+        width: 24%;
+        float: left;
+        margin-left: 1.5%;
+    }
+    ul li:first-child{
+        width: 49%;
+        margin-left: 0;
+    }
+    ul li img{
+        width: 100%;
+    }
+
+        /*0-1023:  tablet*/ 
+        @media only screen and (max-width: 1023px) {
+            ul li{
+                width: 49%;
+                margin-left: 0;
+            }
+               ul li:first-child{
+                width: 100%;
+               }
+
+               ul.media_list li:nth-child(3),
+               ul.media_list li:nth-child(5){
+                margin-left: 2%;
+               }
+        }   
+
+
+        /*0-700:  phone */
+        /*@media only screen and (max-width: 700px) {
+            
+        }*/
+    </style>
+
+
+
+    <div class="main">
+        <ul class="media_list">
+
+            <li>
+                <img src="img/MULTIMEDIA_big_1.jpg">
+                <p>gười dân TP.HCM tiêm vaccine không cần đăng ký trước</p>
+            </li>
+            <li>
+                <img src="img/MULTIMEDIA_1.jpg">
+                <p>gười dân TP.HCM tiêm vaccine không cần đăng ký trước</p>
+            </li>
+            <li>
+                <img src="img/MULTIMEDIA_1.jpg">
+                <p>gười dân TP.HCM tiêm vaccine không cần đăng ký trước</p>
+            </li>
+            <li>    
+                <img src="img/MULTIMEDIA_1.jpg">
+                <p>gười dân TP.HCM tiêm vaccine không cần đăng ký trước</p>
+            </li>
+            <li>
+                <img src="img/MULTIMEDIA_1.jpg">
+                <p>gười dân TP.HCM tiêm vaccine không cần đăng ký trước</p>
+            </li>
+        </ul>
+    </div>
+
+   
+    
+
+  
+</body>
+</html>
