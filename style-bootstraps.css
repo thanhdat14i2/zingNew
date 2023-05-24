@@ -1,0 +1,215 @@
+*{
+    padding: 0;
+    margin: 0;
+    border: 0;
+    font-size: 16px;
+    font-weight: 400;
+}
+:root{
+    --font-content: "Roboto Slab";
+    --font-heading: "Montserrat";
+}
+.menu{
+    background-color: #212529;
+}
+.nav-link{
+    font-size: 0.96rem;
+    letter-spacing: 0.0625em;
+    margin: 0px 10px;
+}
+.masthead-subheading{
+    font-size: 2.25rem;
+    font-style: italic;
+    font-family: "Roboto Slab";
+    margin-bottom: 2rem;
+}
+.masthead-heading{
+    font-size: 4.5rem;
+    font-weight: 700;
+    line-height: 4.5rem;
+    margin-bottom: 4rem;
+}
+.masthead{
+    background-image: url(https://startbootstrap.github.io/startbootstrap-agency/assets/img/header-bg.jpg);
+    padding-top: 17rem;
+    padding-bottom: 12.5rem;
+}
+.btn-xl{
+    padding: 1.25rem 2.5rem;
+    font-weight: 700;
+    font-size: 1.125rem;
+}
+.services{
+    margin-top: 6em;
+    margin-bottom: 4em;
+}
+.services-item{
+    
+}
+.services-item i{
+    font-size: 4em;
+}
+.services-item .thumnail{
+    border-radius: 100%;
+    background-color: #ffc800;
+    width: calc(4em + 50px);
+    height: calc(4em + 50px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.text-header h2{
+    font-size: 2.5em;
+    margin-bottom: 1em;
+    font-weight: 700;
+    font-family: Montserrat;
+}
+.text-header p{
+    font-size: 1em;
+    margin-bottom: 4em;
+    font-weight: 400;
+}
+.services-item h3{
+    margin-top: 1em;
+    margin-bottom: 1em;
+    font-weight: 700;
+    font-size: 1.7em;
+}
+.services-item p{
+    color: #6c757d;
+    font-weight: 400;
+}  
+.portfolio-caption{
+    padding: 25px;
+}
+.portfolio-caption .heading{
+    font-size: 1.5em;
+    font-weight: 700;
+    font-family: "Montserrat";
+}
+.portfolio-caption .masthead-subheading{
+    font-size: 1em;
+    font-family: "Roboto Slab";
+}
+.portfolio{
+    padding-top: 6em;
+}
+.item-product{
+    margin-bottom: 1.5em;
+}
+.timeline-panel{
+
+}
+ .timeline-panel h2{
+    font-size: 2rem;
+    font-family: var(--font-heading);
+    font-weight: 700;
+ }
+ .timeline-panel p{
+    font-family: var(--font-content);
+ }
+ .timeline-image{
+    width: 170px;
+    height: 170px;
+    border: 5px #ddd solid;
+    border-radius: 100%;
+ }
+ .left{
+    position: absolute;
+    top: -5px;
+    left: -85px;
+ }
+ .timeline-image img{
+
+ }
+ .timeline-inverted  .timeline-image{
+
+ }
+ .right{
+    position: absolute;
+    top: -5px;
+    right: -85px;
+ }
+ .timeline-image{
+    border: 5px #ddd solid;
+    border-radius: 100%;
+ }
+ .about .row{
+    min-height: 165px;
+ }
+ .team-member img{
+    width: 14rem;
+    border-radius: 100%;
+    border: 10px solid #ddd;
+ }
+ .team-member h4{
+    font-family: Montserrat;
+    font-size: 1.5rem;
+    font-weight: 1000;
+ }
+ .team-member p{
+    font-family: var(--font-content);
+    font-size: 1rem;
+ }
+ .team-member a{
+    width: 40px;
+    height: 40px;
+    background-color: black;
+    border-radius: 100%;
+    display: inline-block;
+    text-decoration: none;
+ }
+ .team-member a i{
+    width: 40px;
+    height: 40px;
+    color: white;
+    vertical-align: middle;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+ .img-brand{
+    height: 2.75rem;
+ }
+ .contact-us{
+    background-image: url(https://startbootstrap.github.io/startbootstrap-agency/assets/img/map-image.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #212529;
+ }
+ .input-group input{
+    padding: 1.25rem;
+ }
+ .input-group input::placeholder{
+    color: #ced4da;
+    font-weight: 700;
+ }
+ .input-group textarea{
+    height: 100%;
+    border: 3px solid #ddd;
+ }
+ .input-group textarea::placeholder{
+    color: #ced4da;
+    font-weight: 700;
+ }
+.disabled{
+    pointer-events: none;
+    opacity: 0.65;
+ }
+.brand a{
+    width: 40px;
+    height: 40px;
+    background-color: black;
+    border-radius: 100%;
+    display: inline-block;
+    text-decoration: none;
+}
+.brand a i{
+    width: 40px;
+    height: 40px;
+    color: white;
+    vertical-align: middle;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
