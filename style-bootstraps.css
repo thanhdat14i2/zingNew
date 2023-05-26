@@ -97,43 +97,6 @@
 .item-product{
     margin-bottom: 1.5em;
 }
-.timeline-panel{
-
-}
- .timeline-panel h2{
-    font-size: 2rem;
-    font-family: var(--font-heading);
-    font-weight: 700;
- }
- .timeline-panel p{
-    font-family: var(--font-content);
- }
- .timeline-image{
-    width: 170px;
-    height: 170px;
-    border: 5px #ddd solid;
-    border-radius: 100%;
- }
- .left{
-    position: absolute;
-    top: -5px;
-    left: -85px;
- }
- .timeline-image img{
-
- }
- .timeline-inverted  .timeline-image{
-
- }
- .right{
-    position: absolute;
-    top: -5px;
-    right: -85px;
- }
- .timeline-image{
-    border: 5px #ddd solid;
-    border-radius: 100%;
- }
  .about .row{
     min-height: 165px;
  }
@@ -205,11 +168,43 @@
     text-decoration: none;
 }
 .brand a i{
-    width: 40px;
+        width: 40px;
     height: 40px;
     color: white;
     vertical-align: middle;
     display: flex;
     justify-content: center;
     align-items: center;
+}
+ul li{
+    width: 100%;
+    list-style: none;
+    position: relative;
+}
+.timeline-panel{
+    width: 40%;
+}
+.timeline-image{
+    width: 170px;
+    height: 170px;
+    position: absolute;
+    left: calc(50% - 85px);
+}
+ul{
+    position: relative;
+}
+ul::before{
+    content: "";
+    width: 3px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: calc(50% + 14.5px);
+    background-color: #dee2e6;
+}
+.left{
+    text-align: end;
+}
+.right{
+    text-align: start;
 }
